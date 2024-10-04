@@ -1,0 +1,115 @@
+/* this is box sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 202%;
+    font-weight: 702;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    position: relative;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+    background-color: #919191;
+    flex: 1 1 31%;
+    font-weight: 500;
+}
+
+/* Title are */
+.section-title {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 6px;
+    border: 1px solid black;
+    font-size: 126%;
+    font-weight: 700;
+    min-height: 42px;
+    width: 153px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.section-title1 {
+    display: inline;
+    background-color: #c39c9b;
+    border: 1px solid black;
+}
+
+.section-title2 {
+    display: inline;
+    background-color: #c14141;
+    border: 1px solid black;
+
+}
+
+.section-title3 {
+    display: inline;
+    background-color: #daab7e;
+    border: 1px solid black;
+}
+
+
+@media (min-width: 992px) {
+    .box {
+        width: 30%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .box {
+        width: 48%;
+    }
+
+    .box:nth-child(3) {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .box {
+        width: 100%;
+    }
+}
+
+
+p {
+    margin-top: 52px;
+    font-size: 100%;
+}
+
+.section-title {
+    font-size: 125%;
+}
+
+h1 {
+    font-size: 175%;
+}
+
+
+/* by Fahad */

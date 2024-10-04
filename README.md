@@ -1,1 +1,1 @@
-### this is my project for coursera course 
+### this is my own project for coursera course 
